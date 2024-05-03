@@ -1,0 +1,1 @@
+{"id": "1234567890", "imp": [{"id": "1", "banner": {"w": 300, "h": 250, "pos": 1}, "secure": 0}], "site": {"id": "987654321", "domain": "examplewebsite.com"}, "device": {"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3", "ip": "192.168.1.1"}, "at": 1, "tmax": 120}

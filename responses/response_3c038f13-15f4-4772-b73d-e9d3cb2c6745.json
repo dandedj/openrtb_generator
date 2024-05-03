@@ -1,0 +1,1 @@
+{"id": "123456789", "seatbid": [{"bid": [{"id": "bid-1", "impid": "1", "price": 1.25, "adm": "<div>This is a sample ad for a hypothetical DSP</div>", "adid": "ad-123", "adomain": ["randomdsp.com"], "crid": "crid-456"}], "seat": "DSP-XYZ"}], "cur": "USD"}

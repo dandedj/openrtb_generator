@@ -1,0 +1,1 @@
+{"id": "1234567890", "seatbid": [{"bid": [{"id": "1", "impid": "1", "price": 1.2, "adm": "<div style='background-color:blue;color:white;padding:10px;'>Sample Ad Content</div>", "adomain": ["example.com"], "iurl": "https://example.com/sample_ad_image.jpg", "cid": "campaign123", "crid": "creative456"}]}], "cur": "USD"}
