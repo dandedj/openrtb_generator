@@ -23,12 +23,20 @@ if __name__ == "__main__":
 
     # Generate request payloads and write to individual json files
     for i in range(NUM_REQUESTS):
-        request_payload = generator.generate_bid_request()
-        with open(f"requests/request_{i+1}.json", "w") as f:
-            json.dump(request_payload, f, ensure_ascii=False)
+        try:
+            request_payload = generator.generate_bid_request()
+            with open(f"requests/request_{i+1}.json", "w") as f:
+                request_payload
+        except Exception as e:
+            print(f"Error generating request {i+1}: {e}")
+            continue
 
     # Generate response payloads and write to individual json files
     for i in range(NUM_RESPONSES):
-        response_payload = generator.generate_bid_response()
-        with open(f"responses/response_{i+1}.json", "w") as f:
-            json.dump(response_payload, f, ensure_ascii=False)
+        try:
+            response_payload = generator.generate_bid_response()
+            with open(f"responses/response_{i+1}.json", "w") as f:
+                response_payload
+        except Exception as e:
+            print(f"Error generating request {i+1}: {e}")
+            continue
